@@ -7,3 +7,15 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.myBorderF{
+border-style: dotted;
+border-top-color: green;
+border-top-width: 6px;
+}
+
+.myBorderU{
+  border-style: dotted;
+border-top-color:red;
+border-top-width: 6px;
+}

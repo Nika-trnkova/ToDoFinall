@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import '../assets/style.css';
 import axios from "../axios";
 
 import TodoButtons from "./TodoButtons";
@@ -29,7 +29,8 @@ class Todo extends Component {
   render() {
     const { createdAt, title, finished } = this.props.todo;
     let classes = "card";
-    if (finished) classes += " border-success";
+    if (finished) classes += " myBorderF";
+    else classes += " myBorderU";
 
     return (
       <div className="todo mb-2">
